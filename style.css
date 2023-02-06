@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background: #FFFFFF;
+    min-height: 100vh;
+}
+
+.main {
+    display: flex;
+}
+
+.side-bar {
+    width: 150px;
+    height: 100vh;
+    background-color: #191718;
+}
+
+.side-bar-item {
+    display: flex;
+    color: #AAAAAA;
+    padding: 14px 0 14px 16px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    border-bottom: 1px solid #5C5C5C;
+}
+
+.active {
+    color: #FFFFFF;
+}
+
+.side-bar-item:hover {
+    background-color: #5C5C5C;
+    color: #FFFFFF;
+}
+
+.content {
+    width: calc(100vw - 150px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0 129px;
+}
+
+.logo {
+    width: 310px;
+    height: 122px;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    background: url(logoNCC\ 1.png);
+}
+
+.paragraph {
+    padding: 38px 0;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #EFEFEF;
+}
+
+.paragraph-content {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.paragraph-text {
+    margin: 18px 269px 38px;
+}
+.paragraph-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 18px;
+}
+.image-with-text {
+    display: flex;
+    margin-top: 40px;
+}
+
+.image-with-text img {
+    float: left;
+}
+
+.image-with-text-item {
+    float: left;
+    width: 470px;
+    height: 252px;
+}
+
+.image-with-text-item-title {
+    margin-bottom: 18px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.image-with-text-item:nth-child(2) {
+    margin: 0 50px;
+}
+
+.footer {
+    padding: 30px 129px;
+    border-top: 1px solid #DEDEDE;
+}
